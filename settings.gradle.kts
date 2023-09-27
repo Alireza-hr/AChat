@@ -1,17 +1,21 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
-        google()
-        mavenCentral()
         gradlePluginPortal()
+        mavenCentral()
+        maven(url = "https://oss.sonatype.org/content/repositories/snapshots/")
+        google()
     }
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
-        google()
         mavenCentral()
+        maven(url = "https://oss.sonatype.org/content/repositories/snapshots/")
+        google()
     }
 }
 
 rootProject.name = "AChat"
 include(":app")
+include(":core:navigation")
