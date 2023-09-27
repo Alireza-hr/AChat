@@ -1,8 +1,9 @@
 package com.alirezahr.navigation
 
 import androidx.navigation.NavOptionsBuilder
+import javax.inject.Inject
 
-class AChatComposeNavigator @Inject  constructor(): AppComposeNavigator(){
+class AChatComposeNavigator @Inject constructor(): AppComposeNavigator(){
     override fun navigate(route: String, optionsBuilder: (NavOptionsBuilder.() -> Unit)?) {
         TODO("Not yet implemented")
     }
