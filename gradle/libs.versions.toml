@@ -15,6 +15,7 @@ kotlin = "1.8.10"
 androidGradlePlugin = "8.1.1"
 ksp = "1.8.10-1.0.9"
 androidDesugarJdkLibs = "1.1.5"
+org-jetbrains-kotlin-android1810 = "1.8.10"
 
 
 [libraries]
@@ -44,3 +45,4 @@ ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android1810" }
