@@ -29,6 +29,7 @@
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/core/navigation" />
             <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/emogif" />
           </set>
         </option>
       </GradleProjectSettings>

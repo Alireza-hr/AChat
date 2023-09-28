@@ -19,4 +19,4 @@ dependencyResolutionManagement {
 rootProject.name = "AChat"
 include(":app")
 include(":core:navigation")
-include(":features")
+include(":features:emogif")
