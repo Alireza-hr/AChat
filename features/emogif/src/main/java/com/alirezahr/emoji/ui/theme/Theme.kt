@@ -1,4 +1,4 @@
-package com.alirezahr.emogif.ui.theme
+package com.alirezahr.emoji.ui.theme
 
 import android.app.Activity
 import android.os.Build
