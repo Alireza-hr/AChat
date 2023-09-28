@@ -7,10 +7,10 @@
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$PROJECT_DIR$/build-logic" name="build-logic">
+              <build path="$PROJECT_DIR$/build-dependency" name="build-dependency">
                 <projects>
-                  <project path="$PROJECT_DIR$/build-logic" />
-                  <project path="$PROJECT_DIR$/build-logic/convention" />
+                  <project path="$PROJECT_DIR$/build-dependency" />
+                  <project path="$PROJECT_DIR$/build-dependency/convention" />
                 </projects>
               </build>
             </builds>
@@ -24,8 +24,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/build-logic" />
-            <option value="$PROJECT_DIR$/build-logic/convention" />
+            <option value="$PROJECT_DIR$/build-dependency" />
+            <option value="$PROJECT_DIR$/build-dependency/convention" />
             <option value="$PROJECT_DIR$/core" />
             <option value="$PROJECT_DIR$/core/navigation" />
           </set>
