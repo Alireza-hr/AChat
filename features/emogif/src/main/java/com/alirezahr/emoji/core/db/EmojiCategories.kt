@@ -3,7 +3,7 @@ package com.alirezahr.emoji.core.db
 import androidx.annotation.IntDef
 
 
-internal object EmoticonsCategories {
+object EmojiCategories {
 
     const val RECENT = 0
 

@@ -7,6 +7,7 @@ pluginManagement {
         google()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -20,3 +21,4 @@ rootProject.name = "AChat"
 include(":app")
 include(":core:navigation")
 include(":features:emogif")
+include(":core:extension")

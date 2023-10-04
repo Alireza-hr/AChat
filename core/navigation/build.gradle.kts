@@ -4,7 +4,6 @@ plugins {
 }
 android {
     namespace = "com.alirezahr.achatt"
-
 }
 
 dependencies {

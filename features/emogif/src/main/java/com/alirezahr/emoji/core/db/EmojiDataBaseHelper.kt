@@ -2,20 +2,19 @@ package com.alirezahr.emoji.core.db
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
-import androidx.room.util.query
 import com.alirezahr.emoji.core.emoji.Emoji
 import com.alirezahr.emoji.core.emoji.EmojiProvider
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper
 
 
-internal class EmojiDataBaseHelper(context: Context) :
+class EmojiDataBaseHelper(context: Context) :
     SQLiteAssetHelper(context, DB_NAME, null, DB_VERSION) {
     init {
         setForcedUpgrade()
     }
 
-    fun getEmoticons(
-        @EmoticonsCategories.EmoticonsCategory category: Int,
+    fun getEmojis(
+        @EmojiCategories.EmoticonsCategory category: Int,
         emoticonProvider: EmojiProvider?
     ): ArrayList<Emoji> {
 
@@ -39,7 +38,7 @@ internal class EmojiDataBaseHelper(context: Context) :
         return emoticons
     }
 
-    fun searchEmoticons(
+    fun searchEmoji(
         searchQuery: String,
         emoticonProvider: EmojiProvider?
     ): ArrayList<Emoji> {
